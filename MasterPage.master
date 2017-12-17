@@ -1,0 +1,43 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+     <style type="text/css">
+        .style1
+        {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .style2
+        {
+            width: 179px;
+        }
+    </style>
+</head>
+<body background="Image/Capture.PNG">
+    <form id="form1" runat="server">
+    <div>
+        <table class="style1">
+            <tr>
+                <td class="style2" style="border-bottom-style: solid">&nbsp;&nbsp;&nbsp;
+                    <asp:Image ID="Image1" runat="server" Height="149px" 
+                        ImageUrl="~/Image/logo1.png" Width="161px" />
+                </td>
+                <td align="center" 
+                    style="margin-left: 120px; font-weight: bold; font-family: 'Courier New', Courier, monospace; font-size: 50px; border-bottom-style: solid;" 
+                    valign="middle">
+                    Digitek Software Pvt. Ltd.</td>
+            </tr>
+        </table>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder><br/>
+        <asp:Label ID="Label1" runat="server" Text="Footer"></asp:Label>
+    </div>
+    </form>
+</body>
+</html>

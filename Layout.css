@@ -1,0 +1,92 @@
+﻿        .txtbox
+        {
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            background: -webkit-linear-gradient(#ddd, white); /* For Safari 5.1 to 6.0 */
+            background: -o-linear-gradient(#ddd, white); /* For Opera 11.1 to 12.0 */
+            background: -moz-linear-gradient(#ddd, white); /* For Firefox 3.6 to 15 */
+            background: linear-gradient(#ddd, white); /* Standard syntax */
+        }
+        .style5
+        {
+            width: 90%;
+            border-collapse: collapse;
+            border-spacing: 0; 
+        }
+        .style6
+        {
+            height: 38px;
+            /*background-color: #FFE784;*/
+        }  
+            .style7
+            {
+                font-family: 'maiandra GD'; 
+                font-size: medium;
+            }
+        .style8
+        {
+            height: 51px;
+            /*background-color: #FFE784; */
+            font-family: 'Maiandra GD'; 
+            font-size: medium; 
+        }
+        .style9
+        {
+            height: 51px;
+            /*width: 219px;
+            background-color: #FFE784; */
+            color: #000000; 
+            font-family: 'Maiandra GD'; 
+            font-size: medium; 
+        }
+        .style10
+        {
+            height: 51px;
+            /*background-color: #FFE784;*/
+        }
+        .style11
+        {
+            height: 56px;
+            border-radius: 8px 8px 0 0;
+            font-family: 'Maiandra GD'; 
+            font-size: xx-large; 
+            /*background-color: #F5C700; */
+            color: #000000;
+        }
+        .style12
+        {
+            height: 51px;  
+            /*background-color: #FFE784;*/
+        }
+        .style13
+        {
+            height: 31px;
+            border-radius: 0 0 8px 8px;
+            /*background-color: #FFE784; */
+            font-family: 'Maiandra GD'; 
+            font-style: italic; 
+            color: #000080;
+        }
+        sup
+        {
+            color:red;
+        }
+        .auto-style3 
+        {
+            /*width: 219px;
+            background-color: #FFE784; */
+            color: #000000; 
+            font-family: 'Maiandra GD'; 
+            font-size: medium; 
+        }
+        .auto-style4 
+        {
+            height: 51px;
+            width: 130px;
+            /*background-color: #FFE784; */
+            color: #000000; 
+            font-family: 'Maiandra GD'; 
+            font-size: medium; 
+        }
